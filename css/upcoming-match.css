@@ -1,0 +1,43 @@
+.blog-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.single-blog {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    height: 260px;
+}
+
+.blog-title {
+    position: relative;
+    top: 82px;
+    text-align: center;
+}
+
+.blog-meta {
+    position: relative;
+    top: 82px;
+    text-align: center;
+}
+
+.img-1 {
+    position: relative;
+    left: -12px;
+}
+
+.img-2 {
+    position: relative;
+    right: -15px;
+}
+
+.active a {
+    background: #DD0000 !important;
+    /* display: block !important; */
+    color: #fff !important;
+    display: inline-block;
+    padding: 21px 27px !important;
+}
